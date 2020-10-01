@@ -7,7 +7,7 @@ printf("kiska factorial chahiye?");
 scanf("%d",&n);
 for(i=n;i>=1;i--)
 {
-    fact=fact*i;
+    fact*=i;
 }
 printf("factorial of %d is %d",n,fact);
 }
